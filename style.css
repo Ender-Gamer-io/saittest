@@ -20,7 +20,7 @@ html body * {
   user-select: none;
 }
 .background {
-  background: #151515;
+  background: #c21010;
   inset: 0;
   position: fixed;
   overflow: hidden;
