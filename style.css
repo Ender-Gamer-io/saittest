@@ -16,7 +16,7 @@ html ::-webkit-scrollbar {
   display: none;
 }
 html body * {
-  font-family: Jura, Arial !important;
+  font-family: Jura, SansSerif !important;
   user-select: none;
 }
 .background {
