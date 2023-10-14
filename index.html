@@ -1,5 +1,5 @@
 {% block content %}
-<h2>Блог - тестовый запуск</h2>
+<h2>Блог - тестовый запуск11</h2>
             {% for post in posts %}
         	<small>{{ post.date }}</small>
         	<p>
@@ -10,7 +10,7 @@
           	<i>{{ post.description }}</i>
         	</p>
          	<p>{{ post.html[:100]|safe }}</p>
-            	<a href="{{ url_for('post', name=post.path.replace('posts/', '')) }}"><span>Читать</span></a>
+            	<a href="{{ url_for('post', name=post.path.replace('posts/', '')) }}"><span>Читdать</span></a>
         	</p>
         	{% endfor %}
 {% endblock %}
