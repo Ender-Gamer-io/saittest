@@ -16,7 +16,7 @@ html ::-webkit-scrollbar {
   display: none;
 }
 html body * {
-  font-family: Jura, Comic Sans !important;
+  font-family: Comic Sans MS, Comic Sans, cursive !important;
   user-select: none;
 }
 .background {
